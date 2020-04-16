@@ -1,0 +1,496 @@
+a {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+/*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+
+#header {
+  padding: 20px 0;
+  height: 70px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+  background-color: #e4038A;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: black;
+  text-decoration: none;
+}
+#header #logo {
+  float: left;
+}
+
+#header #logo h1 {
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Nav Menu Essentials */
+
+.nav-menu,
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 200px;
+}
+
+#nav-menu-container {
+  float: right;
+  margin-right: 100px;
+}
+
+/* Nav Menu Styling */
+
+.nav-menu a {
+  padding: 0 8px 10px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav-menu li:hover > a {
+  color: black;
+}
+
+.nav-menu > li {
+  margin-left: 10px;
+}
+
+.nav-menu ul li {
+  transition: 0.3s;
+}
+.nav-menu ul ul {
+  margin: 0;
+}
+#image1{
+  background-image: url(images/1.jpg);
+  background-size: cover;
+  width:100%;
+  height:600px;
+  background-attachment: fixed;
+  position:relative;
+  overflow: hidden;
+}
+#main-overlay{
+  color:red;
+  background-image: linear-gradient(#ea3ecd75,#ff00e061);
+  width: 100%;
+  height:600px;
+  position:absolute;
+  top: 0;
+  left: 0;
+
+}
+.categories {
+	text-align: center;
+}
+ul.cat li {
+	display: inline-block;
+}
+ol.type li {
+	display: inline-block;
+	margin: 0 10px 40px 10px;
+}
+ol.type li a {
+	color: #555;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 8px 16px;
+	background: #e6e6e6;
+	border: 0;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+ol.type li a.active {
+	background: #e4038a;
+	color: #fff;
+}
+ol.type li a:hover {
+	background: #e4038a;
+	color: #fff;
+}
+#shop {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+.row {
+  margin-top: 20px;
+}
+#shop h2 {
+  font-style: italic;
+}
+
+
+.overlay1 {
+  width: 100%;
+  height: 320px;
+  background-color: rgb(47, 44, 44, 0.45);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  opacity: 0;
+}
+.card-image:hover > .overlay1 {
+  transform: translatey(320px);
+  transition: 0.5s ease;
+  opacity: 1;
+}
+.overlay1 p {
+  color: white;
+  font-size: 12px;
+}
+#buyBtn {
+  background-color: rgb(125, 82, 128);
+  color: white;
+  font-style: italic;
+  padding: 8px;
+  margin-top: 40%;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#img4 {
+  height: 320px;
+  background-image: url(images/5.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#img5 {
+  height: 320px;
+  background-image: url(images/6.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#img6 {
+  height: 320px;
+  background-image: url(images/7.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#img7 {
+  height: 320px;
+  background-image: url(images/8.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#img8 {
+  height: 320px;
+  background-image: url(images/9.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#img9 {
+  height: 320px;
+  background-image: url(images/10.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#img10 {
+  height: 320px;
+  background-image: url(images/11.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#img11 {
+  height: 320px;
+  background-image: url(images/12.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#img12 {
+  height: 320px;
+  background-image: url(images/13.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#f1 {
+  height: 320px;
+  background-image: url(images/f1.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#f2 {
+  height: 320px;
+  background-image: url(images/f3.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#f3 {
+  height: 320px;
+  background-image: url(images/f4.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#f4 {
+  height: 320px;
+  background-image: url(images/f5.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#f5 {
+  height: 320px;
+  background-image: url(images/f6.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#f6 {
+  height: 320px;
+  background-image: url(images/f7.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#f7 {
+  height: 320px;
+  background-image: url(images/f8.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#f8 {
+  height: 320px;
+  background-image: url(images/f9.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#f9 {
+  height: 320px;
+  background-image: url(images/f10.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c1 {
+  height: 320px;
+  background-image: url(images/c1.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c2 {
+  height: 320px;
+  background-image: url(images/c2.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c3 {
+  height: 320px;
+  background-image: url(images/c3.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c4 {
+  height: 320px;
+  background-image: url(images/c4.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c5 {
+  height: 320px;
+  background-image: url(images/c5.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c6 {
+  height: 320px;
+  background-image: url(images/c6.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c7 {
+  height: 320px;
+  background-image: url(images/c7.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c8 {
+  height: 320px;
+  background-image: url(images/c8.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#c9 {
+  height: 320px;
+  background-image: url(images/c9.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#t1 {
+  height: 320px;
+  background-image: url(images/t1.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#t2 {
+  height: 320px;
+  background-image: url(images/t2.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#t3 {
+  height: 320px;
+  background-image: url(images/t3.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#t4 {
+  height: 320px;
+  background-image: url(images/d1.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#t5 {
+  height: 320px;
+  background-image: url(images/d2.png);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#t6 {
+  height: 320px;
+  background-image: url(images/d3.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#about {
+  width: 100%;
+  height: 400px;
+  background-image: url(images/2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#overlay {
+  width: 100%;
+  height: 400px;
+  color: #fdfdfd;
+  background-color: rgb(0, 0, 0, 0.67);
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+}
+#overlay h5 {
+  margin-top: 100px;
+}
+#overlay #email {
+  cursor: pointer;
+}
+.head {
+  text-align: center;
+}
+#contact {
+  width: 100%;
+  height: auto;
+  color: black;
+  margin-top: 40px;
+  text-align: center;
+  font-style: bold;
+}
+#button2 {
+  background-color: #555;
+  
+}
+
+#button2 :hover {
+  background-color:#e4038a;
+}
+footer {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  color: white;
+  padding: 8px;
+  background-color: #e4038a;
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
