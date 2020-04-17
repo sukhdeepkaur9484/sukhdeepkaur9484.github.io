@@ -1,33 +1,19 @@
-/** Add any JavaScript you need to this file. */
-
-$('body').scrollspy({ 
-    target: '.navbar-default',
-    offset: 80
-});
-
-$(window).load(function() {
-    var $container = $('.portfolio');
-    $container.isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 750,
-            easing: 'linear',
-            queue: false
-        }
-    });
-    $('.cat a').click(function() {
-        $('.cat .active').removeClass('active');
-        $(this).addClass('active');
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
+function validateform(){  
+    var name=document.myform.name.value;  
+    var password=document.myform.password.value;  
+      
+    if (name==null || name==""){  
+      alert("Name can't be blank");  
+      return false;  
+    }
+    return true;
+}
+function validateTextArea(myform){
+    if(myform.delivery.value.trim().length==0){
+        errors.innerHTML+=<p>* No input!</p>;
+        myform.comments.value="";
+        myform.comments.focus();
         return false;
-    });
-
-});
+    }
+    return true;
+}
